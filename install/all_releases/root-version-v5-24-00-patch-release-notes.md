@@ -19,7 +19,7 @@ sidebar:
 <p>The complete source tree for all systems (23.5 MB) is available here:</p>
 <code> <a href="ftp://root.cern.ch/root/root_v5.24.00b.source.tar.gz" target="_blank">ftp://root.cern.ch/root/root_v5.24.00b.source.tar.gz</a> </code>
 
-<p>Alternatively get the source from <a href="/git-primer" target="_blank">Subversion</a> <span style="color:#B22222;">(broken)</span> using:</p>
+<p>Alternatively get the source from Subversion using:</p>
 <code> svn co <a href="http://root.cern.ch/svn/root/tags/v5-24-00b" target="_blank" title="http://root.cern.ch/svn/root/tags/v5-24-00b">http://root.cern.ch/svn/root/tags/v5-24-00b</a> root </code>
 
 <p>After obtaining the source read the file README/INSTALL (in short just do: cd root; ./configure; make).</p>

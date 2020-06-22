@@ -15,10 +15,10 @@ sidebar:
 <p>The complete source tree for all systems (23.5 MB) is available here:</p>
 <code><a href="ftp://root.cern.ch/root/root_v5.27.06d.source.tar.gz" target="_blank">ftp://root.cern.ch/root/root_v5.27.06d.source.tar.gz</a> </code>
 
-<p>Alternatively get the source from <a href="/git-primer" target="_blank">Subversion</a> <span style="color:#B22222;">(broken)</span>using:</p>
+<p>Alternatively get the source from Subversion using:</p>
 <code> svn co <a href="http://root.cern.ch/svn/root/tags/v5-27-06d" target="_blank" title="http://root.cern.ch/svn/root/tags/v5-27-06d">http://root.cern.ch/svn/root/tags/v5-27-06d</a> root </code>
 
-<p>After obtaining the source read the file <a href="/node/103" target="_blank">README/INSTALL</a> (in short just do: cd root; ./configure; make).</p>
+<p>After obtaining the source read the file README/INSTALL (in short just do: cd root; ./configure; make).</p>
 
 <p>To get the source of the head of the v5-27-06-patches branch do:</p>
 <code> svn co <a href="http://root.cern.ch/svn/root/branches/v5-27-06-patches" target="_blank" title="http://root.cern.ch/svn/root/branches/v5-27-06-patches">http://root.cern.ch/svn/root/branches/v5-27-06-patches</a> root </code>

@@ -19,7 +19,7 @@ sidebar:
 <p>The complete source tree for all systems (23.5 MB) is available here:</p>
 <code> <a href="ftp://root.cern.ch/root/root_v5.22.00j.source.tar.gz" target="_blank">ftp://root.cern.ch/root/root_v5.22.00j.source.tar.gz</a> </code>
 
-<p>Alternatively get the source from <a href="/git-primer" target="_blank">Subversion</a> <span style="color:#B22222;">(broken)</span> using:</p>
+<p>Alternatively get the source from Subversion using:</p>
 <code> svn co <a href="http://root.cern.ch/svn/root/tags/v5-22-00j" target="_blank" title="http://root.cern.ch/svn/root/tags/v5-22-00j">http://root.cern.ch/svn/root/tags/v5-22-00j</a> root </code>
 
 <p>After obtaining the source read the file <a href="https://root.cern.ch/build-root-old-method" target="_blank">README/INSTALL</a> <span style="color:#B22222;">(broken) </span>(in short just do: cd root; ./configure; make).</p>

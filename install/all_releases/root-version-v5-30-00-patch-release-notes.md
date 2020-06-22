@@ -16,10 +16,10 @@ sidebar:
 <p>The complete source tree for all systems (39 MB) is available here:</p>
 <code> <a href="ftp://root.cern.ch/root/root_v5.30.06.source.tar.gz" target="_blank">ftp://root.cern.ch/root/root_v5.30.06.source.tar.gz</a> </code>
 
-<p>Alternatively get the source from <a href="/node/92" target="_blank">Git</a> using:</p>
+<p>Alternatively get the source from Git using:</p>
 <code> git clone http://root.cern.ch/git/root.git root-v5-30; cd root-v5-30; git checkout -b v5-30-06 </code>
 
-<p>After obtaining the source read the file <a href="/node/103" target="_blank">README/INSTALL</a> <span>(broken)</span> (in short just do: cd root; ./configure; make).</p>
+<p>After obtaining the source read the file README/INSTALL (in short just do: cd root; ./configure; make).</p>
 
 <p>To get the source of the head of the v5-30-00-patches branch do:</p>
 <code> git clone -b v5-30-00-patches http://root.cern.ch/git/root.git root-v5-30 </code>
@@ -90,7 +90,7 @@ sidebar:
 	</li>
 	<li>Geometry
 	<ul>
-		<li>Port patch <a href="http://root.cern.ch/viewvc?view=rev&amp;sortby=rev&amp;revision=40117" target="_blank">#40117</a> that fixes an issue with usage of reflection matrices in assemblies and affected the GEANT4 interface.</li>
+		<li>Port patch #40117 that fixes an issue with usage of reflection matrices in assemblies and affected the GEANT4 interface.</li>
 	</ul>
 	</li>
 </ul>
@@ -122,7 +122,7 @@ sidebar:
 	<li>Xrootd
 	<ul>
 		<li>Add support for building with external xrootd 3.1.0 or newer.</li>
-		<li>Backport of <a href="http://xrootd.cern.ch/cgi-bin/cgit.cgi/xrootd/commit/?id=d10c528900539891037566b5d26c26be1c662132" target="_blank">bug #87880</a>.</li>
+		<li>Backport of bug #87880.</li>
 	</ul>
 	</li>
 	<li>Core
@@ -215,7 +215,7 @@ sidebar:
 	</li>
 	<li>FitPanel
 	<ul>
-		<li>Fix a bug in using an already existing fit function (bug <a href="http:// https://savannah.cern.ch/bugs/?86251" target="_blank">#86251</a>)&nbsp;</li>
+		<li>Fix a bug in using an already existing fit function (bug #86251)&nbsp;</li>
 	</ul>
 	</li>
 	<li>HIstFactory
@@ -331,8 +331,8 @@ sidebar:
 <ul>
 	<li>Build System
 	<ul>
-		<li>Changes to CMake: improve detection of external packages (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39804" target="_blank">r39804</a>).</li>
-		<li>Use Apple clang v3 by default when available (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39805" target="_blank">r39805</a>).</li>
+		<li>Changes to CMake: improve detection of external packages (r39804).</li>
+		<li>Use Apple clang v3 by default when available (r39805).</li>
 	</ul>
 	</li>
 	<li>I/O
@@ -346,12 +346,12 @@ sidebar:
 	</li>
 	<li>TTree
 	<ul>
-		<li>Properly recognize a TClonesArray data member even if the requested type was a typedef (to TClonesArray) that is in a namespace (for example edm::Event::ContainerType).(<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39786" target="_blank">39786</a>)</li>
+		<li>Properly recognize a TClonesArray data member even if the requested type was a typedef (to TClonesArray) that is in a namespace (for example edm::Event::ContainerType).(39786)</li>
 	</ul>
 	</li>
 	<li>Core
 	<ul>
-		<li>TextInput: improved treatment of read-ahead buffer (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39790" target="_blank">r39790</a>)</li>
+		<li>TextInput: improved treatment of read-ahead buffer (r39790)</li>
 		<li>TextInput: no unnecessary redraws (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39862" target="_blank">r39862</a>)</li>
 		<li>TextInput: home / end key on debian (<a href="http://savannah.cern.ch/bugs/?83478" target="_blank">bug #83478</a>, <a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39863" target="_blank">r39863</a>)</li>
 		<li>TextInput: fix bug in clear-to-end-of-line visible on Windows ssh-ing to Linux (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39884" target="_blank">r39884</a>)</li>

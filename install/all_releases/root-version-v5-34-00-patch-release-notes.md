@@ -786,8 +786,6 @@ NOTE: this release exists to backport support for LZ4 compression also to the ol
     *   Added user-defined extensions to volumes and nodes. This can be done inheriting from the base class TGeoExtension. To attach a user TObject derived class, one can use the reference counted TGeoRCExtension. The TGeoExtension class allows for either using or not reference counting. A utility TGeoRCPtr was added to allor smart reference counted pointers. To attach a user extension, use TGeoVolume::SetUserExtension() or TGeoNode::SetUserExtension(). To grab a reference counted pointer use GrabUserExtension(), to simply use/release use the method GetExtension().
     *   Added possibility to draw polygons in 2D using TGeoPolygon::Draw() or TGeoXtru::DrawPolygon()
 
-![](http://root.cern.ch/drupal/sites/default/files/images/polygon.preview.gif)
-
 <a id='07'></a>
 ## Changes in version v5-34-07 (April 26, 2013)
 
@@ -829,8 +827,8 @@ NOTE: this release exists to backport support for LZ4 compression also to the ol
 *   Net
     *   The class TS3WebFile was modified to support also reading files hosted by Google using the S3 protocol. Its TFile plugin was also modified to reflect this.
 *   Proof
-    *   Import patch [#46634](http://root.cern.ch/viewvc?rev=46634&root=root&view=rev) removing the dependence on the XRootD header XrdSutAux.hh
-    *   Import patch [#48766](http://root.cern.ch/viewvc?rev=48766&root=root&view=rev) fixing a possible double-delete when a selector is processed by object.
+    *   Import patch #46634 removing the dependence on the XRootD header XrdSutAux.hh
+    *   Import patch #48766 fixing a possible double-delete when a selector is processed by object.
     *   Import patch [#48939](http://root.cern.ch/viewvc?rev=48939&root=root&view=rev) fixing problem in pq2-verify.
     *   Import patch [#49113](http://root.cern.ch/viewvc?rev=49113&root=root&view=rev) fixing a possible crash in submerger mode due to missing protection.
 *   PyROOT
@@ -1087,7 +1085,7 @@ on top of the merging defaults: kAll | kIncremental (as in the example $ROOTSYS/
     *   Import patches [#45846](http://root.cern.ch/viewvc?rev=45846&root=root&view=rev), [#45847](http://root.cern.ch/viewvc?rev=45847&root=root&view=rev) and [#45849](http://root.cern.ch/viewvc?rev=45849&root=root&view=rev) fixing a few consistency issues (honoring 'workers=N' when passed as option in PROOF-Lite, parallel dataset verification when PROOF is sequential).
     *   Import patches [#45876](http://root.cern.ch/viewvc?rev=45876&root=root&view=rev), [#45823](http://root.cern.ch/viewvc?rev=45823&root=root&view=rev) and [#45827](http://root.cern.ch/viewvc?rev=45827&root=root&view=rev) fixing, in stressProof, sandbox cleaning and adding some switches to better control log saving an path in case of failures. The patch also adds the correct switches in test/CMakeList.txt for cmake -based test running.
     *   Import patch [#45759](http://root.cern.ch/viewvc?rev=45759&root=root&view=rev) fixing possible double delete in TProofDraw.
-    *   Import patches [#45283](http://root.cern.ch/viewvc?rev=45283&root=root&view=rev), [#45289](http://root.cern.ch/viewvc?rev=45289&root=root&view=rev), [#45318](http://root.cern.ch/viewvc?rev=45318&root=root&view=rev), [#45348](http://root.cern.ch/viewvc?rev=45348&root=root&view=rev), [#45367](http://root.cern.ch/viewvc?rev=45367&root=root&view=rev), [#45570](http://root.cern.ch/viewvc?rev=45570&root=root&view=rev), [#45610](http://root.cern.ch/viewvc?rev=45610&root=root&view=rev), [#45614](http://root.cern.ch/viewvc?rev=45614&root=root&view=rev), [#45615](http://root.cern.ch/viewvc?rev=45615&root=root&view=rev), [#45632](http://root.cern.ch/viewvc?rev=45632&root=root&view=rev), [#45634](http://root.cern.ch/viewvc?rev=45634&root=root&view=rev), [#45282](http://root.cern.ch/viewvc?rev=45282&root=root&view=rev), [#45696](http://root.cern.ch/viewvc?rev=45696&root=root&view=rev), [#45697](http://root.cern.ch/viewvc?rev=45697&root=root&view=rev), [#45718](http://root.cern.ch/viewvc?rev=45718&root=root&view=rev) and [#45740](http://root.cern.ch/viewvc?rev=45740&root=root&view=rev) automatizing the usage of file-based technology to handle outputs (see [Handling Outputs](/handling-outputs)).
+    *   Import patches [#45283](http://root.cern.ch/viewvc?rev=45283&root=root&view=rev), [#45289](http://root.cern.ch/viewvc?rev=45289&root=root&view=rev), [#45318](http://root.cern.ch/viewvc?rev=45318&root=root&view=rev), [#45348](http://root.cern.ch/viewvc?rev=45348&root=root&view=rev), [#45367](http://root.cern.ch/viewvc?rev=45367&root=root&view=rev), [#45570](http://root.cern.ch/viewvc?rev=45570&root=root&view=rev), [#45610](http://root.cern.ch/viewvc?rev=45610&root=root&view=rev), [#45614](http://root.cern.ch/viewvc?rev=45614&root=root&view=rev), [#45615](http://root.cern.ch/viewvc?rev=45615&root=root&view=rev), [#45632](http://root.cern.ch/viewvc?rev=45632&root=root&view=rev), [#45634](http://root.cern.ch/viewvc?rev=45634&root=root&view=rev), [#45282](http://root.cern.ch/viewvc?rev=45282&root=root&view=rev), [#45696](http://root.cern.ch/viewvc?rev=45696&root=root&view=rev), [#45697](http://root.cern.ch/viewvc?rev=45697&root=root&view=rev), [#45718](http://root.cern.ch/viewvc?rev=45718&root=root&view=rev) and [#45740](http://root.cern.ch/viewvc?rev=45740&root=root&view=rev) automatizing the usage of file-based technology to handle outputs (see Handling Outputs).
     *   Import patch [#45664](http://root.cern.ch/viewvc?rev=45664&root=root&view=rev) fixing an issue with afdsmgrd build in the case a '--prefix=' was passed.
     *   Import patches [#45283](http://root.cern.ch/viewvc?rev=45283&root=root&view=rev) (parts), [#45318](http://root.cern.ch/viewvc?rev=45318&root=root&view=rev), [#45607](http://root.cern.ch/viewvc?rev=45607&root=root&view=rev), [#45610](http://root.cern.ch/viewvc?rev=45610&root=root&view=rev), [#45613](http://root.cern.ch/viewvc?rev=45613&root=root&view=rev), [#45614](http://root.cern.ch/viewvc?rev=45614&root=root&view=rev) (parts), [#45630](http://root.cern.ch/viewvc?rev=45630&root=root&view=rev), [#45632](http://root.cern.ch/viewvc?rev=45632&root=root&view=rev) (parts) and [#45643](http://root.cern.ch/viewvc?rev=45643&root=root&view=rev) fixing several issues:
          - consolidation of username definition in the automatic LOCALDATASERVER setting (by xproofd);
@@ -1118,7 +1116,7 @@ on top of the merging defaults: kAll | kIncremental (as in the example $ROOTSYS/
     *   Fix setting a second time the nuisance pdf in the ToyMCSampler. This bug affect the HybridCalculator when using different nuisance pdf's for the null and alternate models.
     *   Fix generation of AsymptoticCalculator::GenerateAsimovData  for counting models containing several observables
 *   HistFactory
-    *   Import changes described in revision [45703](http://root.cern.ch/viewvc?view=rev&revision=45703)
+    *   Import changes described in revision 45703
     *   Import changes to have model built without a data tag selected
 *   Hist
     *   Update projection methods to re-set binning on a previously existing histogram ([#94101](https://savannah.cern.ch/bugs/?94101) and [#95808](https://savannah.cern.ch/bugs/?95808))
@@ -1148,7 +1146,7 @@ on top of the merging defaults: kAll | kIncremental (as in the example $ROOTSYS/
 *   RooFit
     *   Fix bug in binned generation of extended pdf (patch [#44630](http://root.cern.ch/viewvc?rev=44630&root=root&view=rev) )
 *   HistFactory
-    *   Fix a problem for pyroot and an issue in creating directory (patch [#44579](http://root.cern.ch/viewvc?view=rev&revision=44579) ).
+    *   Fix a problem for pyroot and an issue in creating directory (patch #44579).
 *   Hist
     *   Fix bug in merging histograms and profile when first histogram to merge is empty (bug [#95190](https://savannah.cern.ch/bugs/?95190) and [#94295](https://savannah.cern.ch/bugs/?94295))
     *   Enable TBrowser to access THnSparse with more than 16 axes (r44827).

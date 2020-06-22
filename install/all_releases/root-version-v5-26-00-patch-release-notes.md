@@ -19,10 +19,10 @@ sidebar:
 <p>The complete source tree for all systems (23.5 MB) is available here:</p>
 <code> <a href="ftp://root.cern.ch/root/root_v5.26.00g.source.tar.gz" target="_blank">ftp://root.cern.ch/root/root_v5.26.00g.source.tar.gz</a> </code>
 
-<p>Alternatively get the source from <a href="/git-primer" target="_blank">Subversion</a> <span style="color:#B22222;">(broken)</span> using:</p>
+<p>Alternatively get the source from Subversion using:</p>
 <code> svn co <a href="http://root.cern.ch/svn/root/tags/v5-26-00g" target="_blank" title="http://root.cern.ch/svn/root/tags/v5-26-00g">http://root.cern.ch/svn/root/tags/v5-26-00g</a> root </code>
 
-<p>After obtaining the source read the file <a href="/node/103" target="_blank">README/INSTALL</a> (in short just do: cd root; ./configure; make).</p>
+<p>After obtaining the source read the file README/INSTALL (in short just do: cd root; ./configure; make).</p>
 
 <p>To get the source of the head of the v5-26-00-patches branch do:</p>
 <code> svn co <a href="http://root.cern.ch/svn/root/branches/v5-26-00-patches" target="_blank" title="http://root.cern.ch/svn/root/branches/v5-26-00-patches">http://root.cern.ch/svn/root/branches/v5-26-00-patches</a> root </code>
@@ -53,7 +53,7 @@ sidebar:
 	</li>
 	<li>xrootd
 	<ul>
-		<li>Backport in xrootd of <a href="http://root.cern.ch/viewvc/trunk/net/xrootd/src/xrootd/src/XrdSecsss/XrdSecProtocolsss.cc?r1=37905&amp;r2=37998" target="_blank">this fix</a> for ATLAS.</li>
+		<li>Backport in xrootd of http://root.cern.ch/viewvc/trunk/net/xrootd/src/xrootd/src/XrdSecsss/XrdSecProtocolsss.cc?r1=37905&amp;r2=37998 for ATLAS.</li>
 	</ul>
 	</li>
 </ul>
@@ -115,7 +115,7 @@ sidebar:
 	</li>
 	<li>Math
 	<ul>
-		<li>Fix a problem in both Minuit2Minimizer and TMInuitMinimizer when re-defining a parameter (see ROOT&nbsp;Forum post&nbsp;<a href="http://root.cern.ch/phpBB2/viewtopic.php?t=9947" target="_blank">9947</a>).</li>
+		<li>Fix a problem in both Minuit2Minimizer and TMInuitMinimizer when re-defining a parameter (see http://root.cern.ch/phpBB2/viewtopic.php?t=9947).</li>
 	</ul>
 	</li>
 </ul>
@@ -339,7 +339,7 @@ sidebar:
 	<li>Xrootd
 	<ul>
 		<li>New version (v20100205-0000) containing a crucial fix on the server side required by ALICE. This version also includes the new SSL module for authentication needed by Castor.</li>
-		<li>Import&nbsp; crucial fix <a href="../../../../../../../viewvc?view=rev&amp;revision=32322" target="_blank">#32322</a> on for the krb5 security module.</li>
+		<li>Import&nbsp; crucial fix #32322 on for the krb5 security module.</li>
 	</ul>
 	</li>
 	<li>TMVA
@@ -348,7 +348,7 @@ sidebar:
 		<li>Method ReadStateFromXMLString() added: accommodate reading of weights from 'in memory' xml-weightfiles.</li>
 		<li>MethodLikelihood: fix bug that prevented saving of method specific histograms.</li>
 		<li>Remove global pointer access from inline functions.</li>
-		<li>Import fix <a href="../../../../../../../viewvc?view=rev&amp;revision=32302" target="_blank">#32302</a> for the missing external symbol problem for PDF::IGetVal</li>
+		<li>Import fix #32302 for the missing external symbol problem for PDF::IGetVal</li>
 	</ul>
 	</li>
 </ul>
@@ -358,7 +358,7 @@ sidebar:
 <ul>
 	<li>Core
 	<ul>
-		<li>Hide editline's symbols to prevent clashes with readline (r31990, <a href="http://root.cern.ch/phpBB2/viewtopic.php?p=41352" target="_blank">Forum post 41352</a>).</li>
+		<li>Hide editline's symbols to prevent clashes with readline (r31990, Forum post 41352).</li>
 		<li>Fix in rootcint when using the -p option (<strong>[Bad link]</strong>).</li>
 	</ul>
 	</li>
@@ -407,7 +407,7 @@ sidebar:
 	<li>PyROOT
 	<ul>
 		<li>Fix <a href="http://savannah.cern.ch/bugs/?59945" target="_blank">#59945</a> and <a href="https://savannah.cern.ch/bugs/?61105" target="_blank">#61105</a>.</li>
-		<li>Properly handle the extra thread created in PyROOT to process events (r31983 and r31996, <a href="http://root.cern.ch/phpBB2/viewtopic.php?t=9640" target="_blank">Forum post 9640</a> and <a href="http://root.cern.ch/phpBB2/viewtopic.php?t=7748" target="_blank">7748</a>).</li>
+		<li>Properly handle the extra thread created in PyROOT to process events (r31983 and r31996, Forum post 9640 and 7748).</li>
 	</ul>
 	</li>
 </ul>

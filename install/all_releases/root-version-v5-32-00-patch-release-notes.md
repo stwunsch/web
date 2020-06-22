@@ -17,11 +17,11 @@ sidebar:
 
 <p><code><a href="ftp://root.cern.ch/root/root_v5.32.04.source.tar.gz" target="_blank">ftp://root.cern.ch/root/root_v5.32.04.source.tar.gz</a> </code></p>
 
-<p>Alternatively get the source from <a href="/node/92" target="_blank">Git</a> using:</p>
+<p>Alternatively get the source from Git using:</p>
 
 <p><code>git clone http://root.cern.ch/git/root.git root-v5-32 cd root-v5-32 git checkout -b v5-32-04 v5-32-04 </code></p>
 
-<p>After obtaining the source read the file <a href="/node/103" target="_blank">README/INSTALL</a> (in short just do: cd root; ./configure; make).</p>
+<p>After obtaining the source read the file README/INSTALL (in short just do: cd root; ./configure; make).</p>
 
 <p>To get the source of the head of the v5-32-00-patches branch do:</p>
 
@@ -349,14 +349,14 @@ sidebar:
 	</li>
 	<li>Hist
 	<ul>
-		<li>Import fix<a href="http:// http://root.cern.ch/viewvc?rev=42155&amp;root=root&amp;view=rev" target="_blank"> #42155</a> from the trunk to fix for bug <a href="https://savannah.cern.ch/bugs/index.php?88561" target="_blank">#88561</a></li>
+		<li>Import fix #42155 from the trunk to fix for bug <a href="https://savannah.cern.ch/bugs/index.php?88561" target="_blank">#88561</a></li>
 		<li>THnSparse: fix calculation of number of entries (r42190)</li>
 		<li>Import r42237 to optimize the merging of histograms in case of equal axes.</li>
 	</ul>
 	</li>
 	<li>Minuit2
 	<ul>
-		<li>Import fix <a href="http:// http://root.cern.ch/viewvc?rev=42147&amp;root=root&amp;view=rev" target="_blank">#42147</a> in Minuit2Minimizer for fixing bug <a href="https://savannah.cern.ch/bugs/?89111" target="_blank">#89111</a> &nbsp;seen only on Windows</li>
+		<li>Import fix #42147 in Minuit2Minimizer for fixing bug <a href="https://savannah.cern.ch/bugs/?89111" target="_blank">#89111</a> &nbsp;seen only on Windows</li>
 	</ul>
 	</li>
 	<li>Roofit
