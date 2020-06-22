@@ -829,7 +829,7 @@ NOTE: this release exists to backport support for LZ4 compression also to the ol
 *   Proof
     *   Import patch #46634 removing the dependence on the XRootD header XrdSutAux.hh
     *   Import patch #48766 fixing a possible double-delete when a selector is processed by object.
-    *   Import patch [#48939](http://root.cern.ch/viewvc?rev=48939&root=root&view=rev) fixing problem in pq2-verify.
+    *   Import patch #48939 fixing problem in pq2-verify.
     *   Import patch [#49113](http://root.cern.ch/viewvc?rev=49113&root=root&view=rev) fixing a possible crash in submerger mode due to missing protection.
 *   PyROOT
     *   Support for python3.3.

@@ -352,8 +352,8 @@ sidebar:
 	<li>Core
 	<ul>
 		<li>TextInput: improved treatment of read-ahead buffer (r39790)</li>
-		<li>TextInput: no unnecessary redraws (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39862" target="_blank">r39862</a>)</li>
-		<li>TextInput: home / end key on debian (<a href="http://savannah.cern.ch/bugs/?83478" target="_blank">bug #83478</a>, <a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39863" target="_blank">r39863</a>)</li>
+		<li>TextInput: no unnecessary redraws (r39862)</li>
+		<li>TextInput: home / end key on debian (<a href="http://savannah.cern.ch/bugs/?83478" target="_blank">bug #83478</a>, r39863)</li>
 		<li>TextInput: fix bug in clear-to-end-of-line visible on Windows ssh-ing to Linux (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39884" target="_blank">r39884</a>)</li>
 		<li>TextInput: fix possible crash in paren-matching (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39910" target="_blank">r39910</a>)</li>
 		<li>TextInput: fix infinite loop handling SIGABRT (e.g. .qqqqqqqq) (<a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=39941" target="_blank">r39941</a>)</li>

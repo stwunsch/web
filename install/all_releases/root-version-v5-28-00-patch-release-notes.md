@@ -407,7 +407,7 @@ sidebar:
 	</li>
 	<li>Graf
 	<ul>
-		<li>Revision <a href="http://root.cern.ch/viewvc?view=rev&amp;revision=37541" target="_blank">#37541</a> created a problem with COL option displayed in LogZ.</li>
+		<li>Revision #37541 created a problem with COL option displayed in LogZ.</li>
 	</ul>
 	</li>
 	<li>Proof
@@ -430,7 +430,7 @@ sidebar:
 	</li>
 	<li>Hist
 	<ul>
-		<li>Import fix <a href="http://root.cern.ch/viewvc?view=rev&amp;revision=37701" target="_blank">#37701</a> for the drawing of 2D TEfficiency objects&nbsp;</li>
+		<li>Import fix #37701 for the drawing of 2D TEfficiency objects&nbsp;</li>
 		<li>Fix bug <a href="https://savannah.cern.ch/bugs/index.php?77149" target="_blank">#77149</a>&nbsp;in LabelsDeflate for TProfile (imported the fix <a href="http://root.cern.ch/viewcvs?view=rev&amp;revision=37911" target="_blank">#37911</a>)</li>
 		<li>Fix a bug in TProfileXD::GetStats which is affecting the global effective entries (bug <a href="https://savannah.cern.ch/bugs/index.php?77751" target="_blank">#77751</a>)</li>
 		<li>Fix TEfficiency::Draw() and possibility to pick and change axes ranges</li>
